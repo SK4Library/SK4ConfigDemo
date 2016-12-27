@@ -8,11 +8,27 @@
 
 import UIKit
 
+let g_config = GlobalConfig()
+let g_input = InputConfig()
+let g_select = SelectConfig()
+let g_action = ActionConfig()
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 	var window: UIWindow?
 
+	override init() {
+		super.init()
+
+		g_config.setup()
+		g_config.bootCount.value += 1
+//		print("boot: \(g_config.bootCount.value)")
+
+		g_input.setup()
+		g_select.setup()
+		g_action.setup()
+	}
 
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 		// Override point for customization after application launch.
@@ -41,6 +57,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 		// Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 	}
 
-
 }
 
+// eof
