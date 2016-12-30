@@ -1,5 +1,5 @@
 
-# SK4ConfigDemo [![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/SK4Library/SK4ConfigDemo/master/LICENSE.txt) [![GitHub release](https://img.shields.io/github/release/carthage/carthage.svg)](https://github.com/SK4Library/SK4ConfigDemo/releases)
+# SK4ConfigDemo [![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/SK4Library/SK4ConfigDemo/master/LICENSE.txt) [![GitHub release](https://img.shields.io/github/release/SK4Library/SK4ConfigDemo.svg)](https://github.com/SK4Library/SK4ConfigDemo/releases)
 
 SK4ConfigDemoはSK4Configのデモアプリです。SK4Configの基本的な使い方をまとめてあります・・・　たぶん。
 
@@ -20,11 +20,15 @@ https://github.com/SK4Library/SK4Library
 |Date	|2016/12/29 -	|
 
 
-## 説明書
+## スクリーンショット
 
-今のところありません。
+動かすと、こんな感じになります。
 
-
+![Config 1](https://raw.githubusercontent.com/SK4Library/images/master/config-demo01.png)
+![Config 1](https://raw.githubusercontent.com/SK4Library/images/master/config-demo02.png)
+![Config 1](https://raw.githubusercontent.com/SK4Library/images/master/config-demo03.png)
+![Config 1](https://raw.githubusercontent.com/SK4Library/images/master/config-demo04.png)
+![Config 1](https://raw.githubusercontent.com/SK4Library/images/master/config-demo05.png)
 
 
 ## 連絡先
